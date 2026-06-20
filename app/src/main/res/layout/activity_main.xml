@@ -2,13 +2,51 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="20dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AmitGRAM"
-        android:textSize="32sp"/>
+        android:textColor="#00FFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram Style Social Network"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/feedBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feed"/>
+
+    <Button
+        android:id="@+id/reelsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reels"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/chatBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/profileBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>
